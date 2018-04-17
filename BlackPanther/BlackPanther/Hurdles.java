@@ -1,19 +1,17 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Panther here.
+ * Write a description of class Hurdles here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Panther extends Actor
+public class Hurdles extends Actor
 {
     /**
-     * Act - do whatever the Panther wants to do. This method is called whenever
+     * Act - do whatever the Hurdles wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
-    public void act() 
-    {
-        // Add your action code here.
-    }    
+    
+    
 }
