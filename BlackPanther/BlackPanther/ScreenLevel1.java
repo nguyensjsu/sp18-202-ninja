@@ -21,19 +21,7 @@ public class ScreenLevel1 extends World
         
         showText("Complete Level 1 by grabbing 10 gold coins",325,325);
         
-        GameStart gameStart = new GameStart();
-        addObject(gameStart, 315, 304);
-        gameStart.act();
-        gameStart.setLocation(340,61);
-        gameStart.setLocation(340,61);
-        gameStart.setLocation(340,61);
-        gameStart.setLocation(340,61);
-        gameStart.setLocation(340,61);
-        gameStart.setLocation(340,61);
-        gameStart.setLocation(340,61);
-        gameStart.setLocation(531,63);
         
-        gameStart.setLocation(351,58);
         
       
     }
@@ -43,6 +31,30 @@ public class ScreenLevel1 extends World
             Greenfoot.setWorld(new BlackPantherWorld());
         }
 
+    }
+     private void prepare()
+    {
+        GameStart start = new GameStart();
+        addObject(start,100,304);
+        ButtonPlay button = new ButtonPlay(start);
+        button.execute();
+        
+        Instructions instructions = new Instructions();
+        addObject(instructions,562,93);
+        HelpButton buttonhelp = new HelpButton(instructions);
+        buttonhelp.execute();
+        
+        start.setLocation(340,61);
+        start.setLocation(340,61);
+        start.setLocation(340,61);
+        start.setLocation(340,61);
+        start.setLocation(340,61);
+        start.setLocation(340,61);
+        start.setLocation(340,61);
+        start.setLocation(531,63);
+        instructions.setLocation(58,79);
+        start.setLocation(351,58);
+        instructions.setLocation(55,55);
     }
 
     
