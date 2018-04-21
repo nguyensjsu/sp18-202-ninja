@@ -27,7 +27,6 @@ public class BlackPantherHero extends Actor
     GameOverLevel2 gameOver = new GameOverLevel2();
     
         ConcreteScoreUpdate si = new ConcreteScoreUpdate();
-   // Subject s = new Subject();
    ScoreData s = new ScoreData();
    CheckLives l = new CheckLives();
 
@@ -56,4 +55,43 @@ public class BlackPantherHero extends Actor
         return noLives;
         
     }
+
+    private void DispGameover(){      
+        music = false;
+        level_qualified = false;
+                 game_over=true;
+        //Greenfoot.stop();
+        Greenfoot.setWorld(new GameOverLevel1());       
+        
+   }
+   
+   private void DispLevelQualified(){
+       
+       
+        gameOver.setImage(new GreenfootImage("level_complete.jpg"));
+        
+        getWorld().addObject(gameOver, getWorld().getWidth()/2, getWorld().getHeight()/2);
+        level_qualified = true;
+                 game_over=false;
+        music = false;
+        
+       }
+   
+   
+   public void shootOnCommand(){
+       
+       if(Greenfoot.isKeyDown("s"))
+       {
+           if(Counter.bullet_count>0)
+       {
+           World myWorld= getWorld();
+           myWorld.addObject(rocket, 0, 0);
+           rocket.setLocation(getX(), getY());
+           Counter.bullet_count-=1;
+       }
+           
+       }
+       
+   }
+
 }
