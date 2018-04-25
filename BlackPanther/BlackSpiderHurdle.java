@@ -8,5 +8,11 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class BlackSpiderHurdle extends Hurdles
 { 
-      
+      int Hur_Speed = -12;
+   int Hur_Speed1 = -5;
+    public void act() 
+    {
+        // Add your action code here.
+        setLocation(getX() + Hur_Speed, getY());
+    }     
 }
