@@ -4,27 +4,17 @@
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class HasLives  
+public class HasLives implements BlackPantherState
 {
-    // instance variables - replace the example below with your own
-    private int x;
+    BlackPantherHero blackPantherHero;
 
-    /**
-     * Constructor for objects of class HasLives
-     */
-    public HasLives()
-    {
-    }
+	public HasLives(BlackPantherHero newBlackPantherHero) {
+		blackPantherHero= newBlackPantherHero;
+	}
 
-    /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
-    }
+	@Override
+	public void attackEnemy() {
+		System.out.println("BlackPanther can attack on Hurdles");
+		
+	}
 }
