@@ -1,20 +1,26 @@
 /**
  * Write a description of class HelpButton here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ *
+ * @author Gaurav Savner
+ * @version 1.0
  */
-public class HelpButton extends Button 
+public class HelpButton
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
     /**
      * Constructor for objects of class HelpButton
      */
+    private Instructions instruction;
     public HelpButton()
     {
     }
 
-    
+    public HelpButton(Instructions instruction)
+    {
+        this.instruction = instruction;
+    }
+
+    public void execute()
+    {
+       instruction.act();
+    }
 }
