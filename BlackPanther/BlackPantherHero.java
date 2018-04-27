@@ -56,6 +56,152 @@ public class BlackPantherHero extends Actor
         
     }
 
+    public void act() 
+    {
+        counter ++;
+        shootOnCommand();
+
+         
+         if(counter %25 == 0)
+           {
+             //si.update(Counter.score, lives);
+             s.dataChanged();
+            // Counter.addScore();
+           }
+         
+         if( getOneIntersectingObject(BlackSpiderHurdle.class) != null){
+            if(lives<=0)
+            {
+             DispGameover();
+            }
+            else
+            {
+                GreenfootSound myMusic=new GreenfootSound("attack.mp3");
+                myMusic.play();
+                lives=lives-1;
+                getWorld().removeObject(getOneIntersectingObject(BlackSpiderHurdle.class));
+                int t = i.getTransparency();
+                i.setTransparency(0);
+                Greenfoot.delay(5);
+                i.setTransparency(t);
+                Greenfoot.delay(5);
+            }
+         }
+         if( getOneIntersectingObject(FrostHurdle.class) != null){
+//        DispGameover();
+            if(lives<=0)
+            {
+            DispGameover();
+            }
+            else
+            {
+                if( Music.isMusicPlaying==true)
+                 {
+                GreenfootSound myMusic=new GreenfootSound("attack.mp3");
+                myMusic.play();
+            }
+                lives=lives-1;
+                getWorld().removeObject(getOneIntersectingObject(FrostHurdle.class));
+                int t = i.getTransparency();
+                i.setTransparency(0);
+                Greenfoot.delay(5);
+                i.setTransparency(t);
+                Greenfoot.delay(5);
+            }
+        }
+        if( getOneIntersectingObject(Aries.class) != null){
+            if(lives<=0)
+            {
+             DispGameover();
+            }
+            else
+            {
+                GreenfootSound myMusic=new GreenfootSound("attack.mp3");
+                myMusic.play();
+                lives=lives-1;
+                getWorld().removeObject(getOneIntersectingObject(BlackSpiderHurdle.class));
+                int t = i.getTransparency();
+                i.setTransparency(0);
+                Greenfoot.delay(5);
+                i.setTransparency(t);
+                Greenfoot.delay(5);
+            }
+         }
+        setLocation(getX(),(int)(getY()+dy));
+        
+        if(Greenfoot.isKeyDown("up")== true)
+        {
+         dy= speed;
+        }
+        
+        
+       if(Greenfoot.isKeyDown("right")== true)
+        {
+         setRotation(20); 
+        } 
+        
+        if(Greenfoot.isKeyDown("left")== true)
+        {
+        setRotation(-20);        
+        } 
+        
+        if(getY()<16){
+            DispGameover();
+        }
+        if(getY() > getWorld().getHeight()){
+        DispGameover();
+        }
+        
+        if(getOneIntersectingObject(Vibranium.class) != null){
+             
+             if( Music.isMusicPlaying==true)
+              {
+             GreenfootSound myMusic=new GreenfootSound("smb_fireball.wav");
+             myMusic.play();
+            }
+             Counter.bonusPoints(30);
+             getWorld().removeObject(getOneIntersectingObject(Vibranium.class));
+             //myMusic.stop();
+        }
+        
+        if(getOneIntersectingObject(Vibranium50.class) != null){
+             Vibranium50 b1=new Vibranium50();
+             if( Music.isMusicPlaying==true)
+              {
+             GreenfootSound myMusic=new GreenfootSound("smb_fireball.wav");
+             myMusic.play();
+            }
+            b1.incrementScore();
+            
+            //Counter.bonusPoints(50);
+             getWorld().removeObject(getOneIntersectingObject(Vibranium50.class));
+             //myMusic.stop();
+        }
+        
+        if(getOneIntersectingObject(Vibranium100.class) != null){
+             Vibranium100 b1=new Vibranium100();
+             if( Music.isMusicPlaying==true)
+              {
+             GreenfootSound myMusic=new GreenfootSound("smb_fireball.wav");
+             myMusic.play();
+            }
+            b1.incrementScore();
+            // Counter.bonusPoints(100);
+             getWorld().removeObject(getOneIntersectingObject(Vibranium100.class));
+             //myMusic.stop();
+        }
+        
+        if(Greenfoot.isKeyDown("space"))
+        {
+           music = false;
+           isPaused = true;
+           Greenfoot.stop();  // Pause the game
+        } 
+        
+        dy = dy+g;
+        
+    }
+
     private void DispGameover(){      
         music = false;
         level_qualified = false;
