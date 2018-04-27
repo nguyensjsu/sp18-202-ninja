@@ -1,3 +1,4 @@
+import greenfoot.*; 
 /**
  * Write a description of class FrostHurdle here.
  * 
@@ -6,25 +7,17 @@
  */
 public class FrostHurdle extends Hurdles  
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class FrostHurdle
-     */
-    public FrostHurdle()
+    int Hur_Speed2 = -12;
+    int Hur_Speed3 = -5;
+    public void act() 
     {
-    }
-
-    /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+        // Add your action code here.
+        setLocation(getX() + Hur_Speed2, getY());
+    }  
+    
+    public FrostHurdle(){
+        GreenfootImage image = getImage();
+        image.scale(image.getWidth() , image.getHeight() );
+        setImage(image);
     }
 }
