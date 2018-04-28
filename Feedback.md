@@ -7,3 +7,5 @@ We will take every iteration commitment seriously by delivering working software
 * Week 2 : Team developed the first working prototype using GreenFoot game engine. During week2 we had been taking feedback from each team member regarding Technologies that can be used. Based of the feedback team concluded to go ahead with GreenFoot.
 
 * Week 3 : A round of feedback was taken regarding the intial prototype. Few points related to dynamic background and hurdle placing were discussed.In the next increment Team would work on changing the background dynamically.
+
+* Week 4 : Feeback was taken on the User Stories developed. New User stories were discussed and feedback regarding each user was taken. Also team performed collective feedback to understand what tasks are pending.
