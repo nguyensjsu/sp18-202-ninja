@@ -10,6 +10,10 @@ public class FrostHurdleFactory  extends Creator
     // instance variables - replace the example below with your own
     private int x;
 
+    
+    public Actor getActor(){
+    return new FrostHurdle();
+    }
     /**
      * Constructor for objects of class FrostHurdleFactory
      */
