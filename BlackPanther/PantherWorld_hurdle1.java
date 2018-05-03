@@ -28,4 +28,9 @@ public class PantherWorld_hurdle1  extends Creator
         // put your code here
         return x + y;
     }
+
+    public Actor getActor(){
+        return new Aries();
+        }
+
 }
