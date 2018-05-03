@@ -16,5 +16,6 @@ public class Vibranium100 extends VibraniumTemplate
     public void incrementScore()
     {
         //to add counter code here once pradnyesh finishes counter with observer pattern
+         Counter.bonusPoints(100);
     }
 }
