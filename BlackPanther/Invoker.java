@@ -6,6 +6,6 @@
  */
 public interface Invoker  
 {
-    // instance variables - replace the example below with your own
-
+    public void setCommand(Command c);
+  public void invoke();
 }
