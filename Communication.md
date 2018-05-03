@@ -21,3 +21,6 @@ We discussed different technologies which are available and can be used to lever
 * We figured out which all design patterns suits our project well so that we can incorporate them in our project to leverage the game.
 * We had a meeting regarding different roles in our project. Scrum master, Product Owner and Development team have been decided.
 * We distributed the tasks to each team member.
+
+## Week 4
+* We discussed about the User Stories developed for each design patterns. New User stories were discussed and feedback regarding each user was taken. 
