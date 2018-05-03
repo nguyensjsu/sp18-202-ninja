@@ -1,11 +1,14 @@
 /**
  * Write a description of class Button here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ *
+ * @author Gaurav Savner
+ * @version 1.0
  */
-public class Button  
+public class Button
 {
-    
-    
+    public Button()
+    {
+
+    }
+
 }
