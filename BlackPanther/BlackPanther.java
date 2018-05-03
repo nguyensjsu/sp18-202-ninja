@@ -137,5 +137,41 @@ public class BlackPanther extends Actor
               //  DispLevelQualified();
        // }
           dy = dy+g;  
+    }  
+    
+    private void DispGameover(){
+       
+         GameOverLevel2 gameOver = new GameOverLevel2();
+         getWorld().addObject(gameOver, getWorld().getWidth()/2, getWorld().getHeight()/2);
+         Counter cnt=new Counter();
+         setImage(new GreenfootImage("Score : "+cnt.score +"    Coins:"+cnt.coin_counter+ "    Lives: "+BlackPanther.lives, 22, Color.WHITE, Color.BLACK));
+         music = false;
+         Greenfoot.stop();
     }
-  }
+    
+    private void DispLevelQualified(){
+       
+         GameOverLevel2 gameOver = new GameOverLevel2();
+         gameOver.setImage(new GreenfootImage("level_complete.jpg"));
+         getWorld().addObject(gameOver, getWorld().getWidth()/2, getWorld().getHeight()/2);
+         
+         level_qualified = true;
+         music = false;
+         Greenfoot.stop();
+    }
+    
+   //to destroy hurdles
+    public void shootOnCommand(){
+        if(Greenfoot.isKeyDown("s"))
+        {
+            World myWorld= getWorld();
+            myWorld.addObject(rocket, 0, 0);
+            rocket.setLocation(getX(), getY());
+            
+            
+        }
+        
+    }
+
+
+}
