@@ -31,4 +31,11 @@ library.
 * Rohit and Venkatesh worked on to complete the factory and template structure. Pradynesh is working on observer for counter, Gaurav
 is working on Command to start the play and Rajib on black panther's state maintainence.
 
+## Week4:
+* Everybody really tried to work hard to setup all the patterns as assigned. We lagged at first as other projects for other courses were also going on.
+* We respected as everybody tried to show what was expected.
+* All have worked and now we will work on integration of the same and commit after testing.
+* We all respected all the efforts put by everybody.
+
+
 
