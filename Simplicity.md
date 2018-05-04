@@ -17,3 +17,6 @@ There were ideas floating as to how different and descriptive user stories can b
 ## Week 4 :
 
 During Development of the game team has agreed to follow a simple coding practice which will keep code uniformity and will be easier of other team members to understand the code.
+
+## Week 4 :
+The task is decided to test the functionalities and fix defects in the game. Since this is the last week and almost all features are developed as were planned, we have decided that the team members can try new feature development on their local versions. But the priority is to test and ensure the functionalities developed by each member is working with the results as were decided. There is also a cross check of functionalities of each method in the game by peers, so that everyone is aware of all things in game, as well as detect any bug which might have been missed. We want a working game with minimum of defects to be delivered for the live version.
