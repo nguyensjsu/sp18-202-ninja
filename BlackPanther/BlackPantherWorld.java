@@ -52,8 +52,8 @@ public class BlackPantherWorld extends World
     
         counter++;
         
-        img0.scroll();
-        img1.scroll();
+        img0.keepAnimating();
+        img1.keepAnimating();
         
         
        if(counter % 50 == 0)
