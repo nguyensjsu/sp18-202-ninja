@@ -12,3 +12,6 @@ We need to have courage in learning new game engine. We already have decided to 
 
 ## Week 4:
 We need to have courage to explore other things like methodologies and design patterns which we will be using in our project. Along with all this things we need to show courage in making rough sketch of our game levels so that we can get the exact idea of what we will be building. We need to show courage in study of design patterns. Everyone in team is studying design patterns which we need to implement in our project. Courage is the main factor which will play the important role in upcoming weeks.
+
+## Week 5:
+We need to have courage in week 5 to fix all the bugs that come when testing the project. We also need to have courage to show our project to people so that they can play it and enjoy it.
