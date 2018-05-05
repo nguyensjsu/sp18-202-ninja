@@ -24,3 +24,6 @@ We discussed different technologies which are available and can be used to lever
 
 ## Week #4
 * We discussed about the User Stories developed for each design patterns. New User stories were discussed and feedback regarding each user was taken. 
+
+## Week #5
+* We discussed about the integration process and performed integration of all the tasks done by the team members. After discussing the dependency of each task we perfoemd integration of the entire game.
