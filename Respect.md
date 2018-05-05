@@ -37,5 +37,9 @@ is working on Command to start the play and Rajib on black panther's state maint
 * All have worked and now we will work on integration of the same and commit after testing.
 * We all respected all the efforts put by everybody.
 
+## Week5:
+* We worked and completed all the UML diagrams and videos required for the project.
+* We respected all for each others contributions as everybody committed to complete all the bug fixes and UML requirements.
+
 
 
