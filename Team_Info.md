@@ -6,7 +6,7 @@
 *	Guarav Savner
 *	Pradnyesh Patil
 *	Rajiv Yadav
-*	Rohit Jain
+*	Rohit Shrishrimal
 *	Venkatesh Devale
 
 #	Summary of areas of contributions (for each team member)
