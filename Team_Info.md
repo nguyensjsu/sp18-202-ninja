@@ -3,7 +3,7 @@
 
 #	Name of Team Members
 ##  Team : Ninja
-*	Guarav Savner
+*	Gaurav Savner
 *	Pradnyesh Patil
 *	Rajiv Yadav
 *	Rohit Shrishrimal
