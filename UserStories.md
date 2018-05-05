@@ -1,13 +1,31 @@
-#### While brainstorming for creation of user stories, we followed a structured approach. We first listed the features or elements that we could identify as part of the game. The game would consist of elements like:
-1.	Character/ Story 1.1. Black Panther modeling 1.2. Animate Black Panther 1.3. Hurdles Modeling 1.4 Animate Hurdles 1.5 Aries(Enemy) Modeling
-2.	Controls 2.1. Input Methods 2.2. Navigation 2.3. Start and End Game
-3.	Interface 3.1. Input methods 3.2. Multichannel 3.3. Loss of service / dysfunctional interface
-4.	Rules 4.1. Level Design 4.2. Navigation Design 4.3. Score collection Design
-5.	Music 5.1. Audio Design
-6.	Display 6.1. Background Design 6.2. Character Design 6.3. Start and End Screen design 6.4. Instruction Screen Design 6.5. Finalization of resolution and color scheme Minimum requirements:
-7.	Duration of game is … min.
-8.	The delivery date or release date is …….
-9.	Minimum feature set- Single player- one kind of obstacles- Become the King of Wakanda on the basis of the above analysis we have created three epic stories
+While brainstorming for creation of user stories, we followed a structured approach. We first listed the features or elements that we could identify as part of the game. The game would consist of elements like:
+1. **Character/ Story**
+    1. Black Panther modeling
+    2. Animate Black Panther
+    3. Hurdles Modeling
+    4. Animate Hurdles
+    5. Aries(Enemy) Modeling
+2. **Controls**
+    1. Input Methods
+    2. Navigation
+    3. Start and End Game
+3.	**Interface**
+    1. Input methods
+    2. Multichannel
+    3. Loss of service / dysfunctional interface
+4. **Rules**
+    1. Level Design
+    2. Navigation Design
+    3. Score collection Design
+5. **Music**
+    1. Audio Design
+6. **Display**
+    1. Background Design
+    2. Character Design
+    3. Start and End Screen design
+    4. Instruction Screen Design
+    5. Finalization of resolution and color scheme Minimum requirements:
+9. **Minimum feature set**- Single player- one kind of obstacles- Become the King of Wakanda on the basis of the above analysis we have created three epic stories
 
 ## Epic stories:
 1.	**As an actor (Black Panther)** in the game, I want to have a maximum score so that I can win the kingdom of Wakanda from Aries.
