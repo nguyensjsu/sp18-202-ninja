@@ -1,7 +1,7 @@
 #	Project Topic
 *  Black Panther World
 
-#	Name of Team Member
+#	Name of Team Members
 ##  Team : Ninja
 *	Guarav Savner
 *	Pradnyesh Patil
@@ -29,7 +29,7 @@
 *	He also took the responsibility of Scrum Master for week 1.
 *	He created UML Diagrams for State Design Pattern.
 
-## Rohit Jain:
+## Rohit Shrishrimal:
 *	Rohit was responsible for implementing Factory Design Pattern.
 *	He also took care of implementing XP Value: Simplicity in our application.
 *	He also took the responsibility of Scrum Master for week 4.
@@ -41,7 +41,7 @@
 *	He also took the responsibility of Scrum Master for week 2.
 *	He created UML Diagrams for Template Design Pattern.
 
-##	Link to your team's GitHub Repo
+#	Links
 
 ###	Link to your team's game Published on Greenfoot
 http://www.greenfoot.org/scenarios/21135
@@ -64,6 +64,6 @@ https://github.com/nguyensjsu/team202-ninja/blob/master/CMPE%20202%20-%20Sprint%
 ###	Link to Ad Video on YouTube
 https://youtu.be/IxxjvgkEPHE
 
-
-
+###	Link to Presentation
+https://prezi.com/view/BvwQTUBIa21WvCYt6xBJ/
 
