@@ -37,7 +37,7 @@
 
 ## Venkatesh Devale:
 *	Venkatesh was responsible for implementing Template Design Pattern.
-*	He also took care of implementing XP Value: Courage in our application.
+*	He also took care of implementing XP Value: Respect in our application.
 *	He also took the responsibility of Scrum Master for week 2.
 *	He created UML Diagrams for Template Design Pattern.
 
